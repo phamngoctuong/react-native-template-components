@@ -1,0 +1,84 @@
+{
+  "name": "myapp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "*",
+    "@react-navigation/native": "^6.0.2",
+    "@react-navigation/native-stack": "^6.1.0",
+    "@react-navigation/stack": "^5.14.5",
+    "formik": "*",
+    "i18next": "*",
+    "react": "17.0.2",
+    "react-i18next": "*",
+    "react-native": "0.66.2",
+    "react-native-checkbox-tree": "*",
+    "react-native-curved-bottom-bar": "*",
+    "react-native-pager-view": "*",
+    "react-native-element-dropdown": "*",
+    "react-native-element-image": "*",
+    "react-native-element-textinput": "*",
+    "react-native-element-timer": "*",
+    "react-native-indicators": "*",
+    "react-native-safe-area-context": "^3.3.0",
+    "react-native-screens": "^3.6.0",
+    "react-native-svg": "*",
+    "react-native-utils-scale": "*",
+    "react-native-utils-toolkit": "*",
+    "react-native-vector-icons": "*",
+    "react-native-vertical-swipe-view": "*",
+    "react-redux": "*",
+    "redux": "*",
+    "redux-logger": "*",
+    "redux-observable": "*",
+    "redux-persist": "*",
+    "rxjs": "*"
+  },
+  "devDependencies": {
+    "@babel/core": "*",
+    "@babel/plugin-proposal-decorators": "*",
+    "@babel/runtime": "*",
+    "@react-native-community/eslint-config": "*",
+    "@types/d3-shape": "*",
+    "@types/react-native": "*",
+    "react-native-codegen": "*",
+    "@types/react-native-vector-icons": "*",
+    "@types/react-redux": "*",
+    "@types/redux": "*",
+    "@types/redux-logger": "*",
+    "@types/redux-persist": "*",
+    "@typescript-eslint/eslint-plugin": "*",
+    "@typescript-eslint/parser": "*",
+    "babel-jest": "*",
+    "babel-plugin-module-resolver": "*",
+    "babel-plugin-transform-decorators-legacy": "*",
+    "babel-plugin-transform-remove-console": "*",
+    "eslint": "*",
+    "jest": "*",
+    "metro-react-native-babel-preset": "*",
+    "react-test-renderer": "*",
+    "typescript": "*"
+  },
+  "jest": {
+    "preset": "react-native",
+    "transformIgnorePatterns": [
+      "/node_modules/(?!(@react-native|react-native|react-native-curved-bottom-bar|react-native-element-dropdown|react-native-utils-scale|react-native-utils-toolkit|react-native-indicators|react-native-vector-icons)/)"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "transform": {
+      "^.+\\.js$": "<rootDir>/node_modules/react-native/jest/preprocessor.js"
+    },
+    "setupFiles": [
+      "./jestSetupFile.js"
+    ]
+  }
+}

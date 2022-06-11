@@ -1,0 +1,30 @@
+{
+  "name": "react-native-template-components",
+  "title": "A beautiful template for React Native.",
+  "version": "1.7.1",
+  "description": "A beautiful template for React Native.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoaphantn7604/react-native-template-components.git",
+    "baseUrl": "https://github.com/hoaphantn7604/react-native-template-components"
+  },
+  "keywords": [
+    "react-native",
+    "elements",
+    "components",
+    "template",
+    "boilerplate",
+    "uikit",
+    "typescript"
+  ],
+  "author": {
+    "name": "Hoa Phan",
+    "email": "hoaphantn7604@gmail.com"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md"
+}
